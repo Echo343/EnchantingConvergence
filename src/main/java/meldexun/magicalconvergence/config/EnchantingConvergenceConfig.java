@@ -21,7 +21,7 @@ public class EnchantingConvergenceConfig {
 
 		public Config(ForgeConfigSpec.Builder builder) {
 			this.checkIfItemHasEnchantability = builder.comment("").define("checkIfItemHasEnchantability", false);
-			this.checkIfEnchantmentIsTreasureEnchantment = builder.comment("").define("checkIfEnchantmentIsTreasureEnchantment", true);
+			this.checkIfEnchantmentIsTreasureEnchantment = builder.comment("").define("checkIfEnchantmentIsTreasureEnchantment", false);
 			this.checkIfEnchantmentCanGenerateInLoot = builder.comment("").define("checkIfEnchantmentCanGenerateInLoot", true);
 		}
 
